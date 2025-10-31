@@ -1,42 +1,39 @@
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* 1️⃣ Import ALL fonts FIRST — include every one used in your StickyButtons */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@400;600;700&family=Playfair+Display:wght@400;700&family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Roboto+Slab:wght@400;700&family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Raleway:wght@400;700&family=Nunito:wght@400;700&family=Merriweather:wght@400;700&family=Josefin+Sans:wght@400;700&family=Kristi&family=Karla:wght@400;700&display=swap');
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* 2️⃣ Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html,
+/* ===== Global Background Texture ===== */
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  background-image: url("/bg.jpg");           /* ✅ Correct public path */
+  background-attachment: fixed;               /* keeps background still when scrolling */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;                     /* fill entire screen */
+  background-color: #0f0b0b;                  /* fallback color (dark tone) */
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* 3️⃣ Global Theme Variables */:root {
+  --font-primary: 'Inter', sans-serif;
+  --font-heading: 'Great Vibes', cursive;
+ 
+ --hero-bg-color: #100b14;
+  --hero-bg-tint: rgba(80, 60, 160, 0.15);
+  --accent-color: #d44d3c;
+  --text-color: #ffffff;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+   /* light paper texture */
+
+[data-theme="dark"] {
+  --bg-color: #1f1b16;
+/* dark beige texture */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+[data-theme="white"] {
+  --bg-color: #fff;
+  
 }

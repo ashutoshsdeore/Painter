@@ -89,13 +89,13 @@ const changeColor = (color) => {
         </a>
 
         {/* Customize */}
-        <button
+        {/* <button
           onClick={() => setOpen(!open)}
           className="bg-white text-black flex items-center gap-2 px-4 py-2 rounded shadow-md hover:shadow-lg transition"
         >
           <Palette size={16} />
           <span>Customize</span>
-        </button>
+        </button> */}
       </div>
 
       {/* Sidebar */}

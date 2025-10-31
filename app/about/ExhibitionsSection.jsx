@@ -75,15 +75,16 @@ export default function ExhibitionsSection() {
               tellus, luctus ullamcorper mattis, pulvinar dapibus leo.
             </p>
             <div className="flex flex-col items-center md:items-start">
-              <img
-                src="/signature.png"
-                alt="Signature"
-                className="h-12 sm:h-14 md:h-16 mb-2 invert brightness-0"
-              />
-              <span className="font-semibold text-gray-800 text-base sm:text-lg">
-                Gajanan Kulkarni
-              </span>
-            </div>
+  <img
+    src="/signature2.png"
+    alt="Signature"
+    className="h-12 sm:h-14 md:h-16 mb-2 grayscale brightness-75 contrast-125"
+  />
+  <span className="font-semibold text-gray-800 text-base sm:text-lg">
+    Gajanan Kulkarni
+  </span>
+</div>
+
           </div>
 
           {/* === Right Column === */}

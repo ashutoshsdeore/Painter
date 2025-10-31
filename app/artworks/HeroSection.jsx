@@ -25,7 +25,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 bg-black/70 z-10" />
 
       {/* ===== CONTENT ===== */}
-      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex flex-col md:flex-row items-center justify-between w-full">
+      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 -mt-40 flex flex-col md:flex-row items-center justify-between w-full">
         <motion.div
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}

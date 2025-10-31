@@ -30,11 +30,11 @@ export default function Navbar() {
         {/* === Signature Logo === */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/signature.png"
+            src="/signature2.png"
             alt="Ovi Chase Signature"
             width={180}
-            height={70}
-            className="object-contain h-12 w-auto brightness-0 invert drop-shadow-[0_2px_6px_rgba(255,255,255,0.6)]"
+            height={90}
+            className="object-contain h-12 w-auto brightness-0 invert "
             priority
           />
         </Link>

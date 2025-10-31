@@ -1,6 +1,6 @@
 "use client";
 
-import { FaDribbble, FaBehance, FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaInstagram, FaFacebook } from "react-icons/fa";
 import { useEffect, useState } from "react";
 
 export default function Footer() {
@@ -58,7 +58,7 @@ export default function Footer() {
 
         {/* === Social Icons === */}
         <div className="flex justify-center gap-3 sm:gap-4 mt-3 flex-wrap">
-          {[FaDribbble, FaBehance, FaYoutube].map((Icon, i) => (
+          {[FaFacebook, FaInstagram, FaYoutube].map((Icon, i) => (
             <a
               key={i}
               href="#"

@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-
+import { Instagram, Facebook, Youtube } from "lucide-react";
 export default function Abstract() {
   return (
     <>
@@ -90,63 +90,48 @@ export default function Abstract() {
               </div>
             </div>
 
-            <div className="flex space-x-4 mt-10">
-              {["B", "Y", "D"].map((letter) => (
-                <div
-                  key={letter}
-                  className="w-10 h-10 bg-[#e74c3c] rounded-full flex items-center justify-center text-white text-lg font-bold"
-                >
-                  {letter}
-                </div>
-              ))}
-            </div>
+           <div className="flex space-x-4 mt-10">
+  {[
+    { Icon: Instagram, href: "https://instagram.com/", label: "Instagram" },
+    { Icon: Facebook, href: "https://facebook.com/", label: "Facebook" },
+    { Icon: Youtube, href: "https://youtube.com/", label: "YouTube" },
+  ].map(({ Icon, href, label }) => (
+    <a
+      key={label}
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="w-10 h-10 bg-[#e74c3c] rounded-full flex items-center justify-center text-white hover:bg-[#ff5a4c] transition-colors"
+      aria-label={label}
+    >
+      <Icon size={20} />
+    </a>
+  ))}
+</div>
           </div>
 
           {/* RIGHT SIDE: CONTACT FORM */}
           <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="relative md:-mt-40 z-[40]"
-          >
-            <div className="bg-white/10 backdrop-blur-lg rounded-2xl shadow-2xl p-10 border border-white/20 max-w-lg mx-auto">
-              <h3 className="text-2xl font-semibold text-white mb-6">
-                Send Me a Message
-              </h3>
+  initial={{ opacity: 0, y: 50 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.8 }}
+  viewport={{ once: true }}
+  className="relative md:-mt-40 z-[40]"
+>
+  <div className="p-10 max-w-5xl mx-auto"> {/* larger container for big image */}
+    <div className="flex justify-center">
+      <Image
+        src="/studio6.jpg"  // 🔹 your image path
+        alt="Send Me a Message"
+        width={900}     // keep width manageable
+        height={1200}   // 🔹 increased height
+        className="rounded-lg  w-[90vw] sm:w-[80vw] md:w-[800px] lg:w-[900px] h-[600px]  h-auto sm:h-auto md:h-[700px]"
+      />
+    </div>
+  </div>
+</motion.div>
 
-              <form className="space-y-5">
-                <div className="grid grid-cols-2 gap-4">
-                  <input
-                    type="text"
-                    placeholder="First Name"
-                    className="p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-[#e74c3c]"
-                  />
-                  <input
-                    type="text"
-                    placeholder="Last Name"
-                    className="p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-[#e74c3c]"
-                  />
-                </div>
-                <input
-                  type="email"
-                  placeholder="Email"
-                  className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-[#e74c3c]"
-                />
-                <textarea
-                  placeholder="Message"
-                  rows={4}
-                  className="w-full p-3 rounded-lg bg-white/20 text-white placeholder-gray-300 focus:outline-none focus:ring-2 focus:ring-[#e74c3c]"
-                />
-                <button
-                  type="submit"
-                  className="px-6 py-3 bg-[#e74c3c] text-white font-semibold rounded-lg hover:bg-[#c0392b] transition"
-                >
-                  Send
-                </button>
-              </form>
-            </div>
-          </motion.div>
+
         </div>
       </section>
     </>

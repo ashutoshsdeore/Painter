@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section
       id="about"
-      className="relative min-h-[100vh] sm:min-h-[110vh] lg:min-h-[120vh] flex items-center overflow-hidden z-[30]"
+      className="relative min-h-[100vh] sm:min-h-[120vh] md:min-h-[140vh] flex items-center overflow-hidden z-[10]"
       style={{
         backgroundImage: "url('/bg.jpg')",
         backgroundSize: "cover",
@@ -24,11 +24,11 @@ export default function HeroSection() {
         `,
       }}
     >
-      {/* === Overlay === */}
+      {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/70 z-10" />
 
-      {/* === Content === */}
-      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-8 md:px-12 flex flex-col md:flex-row items-center justify-between w-full">
+      {/* Content wrapper */}
+      <div className="relative z-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 flex flex-col md:flex-row items-center justify-between w-full">
         <motion.div
           initial={{ opacity: 0, x: -40 }}
           animate={{ opacity: 1, x: 0 }}
@@ -36,52 +36,36 @@ export default function HeroSection() {
           className="flex-1 text-center md:text-left"
         >
           <h1
-            className="
-              text-[64px]
-              sm:text-[100px]
-              md:text-[160px]
-              lg:text-[200px]
-              leading-none
-              mb-4
-              text-white
-            "
+            className="text-[16vw] sm:text-[14vw] md:text-[200px] leading-none mb-4 text-white -mt-40 sm:-mt-12 md:-mt-20"
             style={{
               fontFamily: "var(--font-heading)",
               fontWeight: 500,
             }}
           >
-            About
+           About
           </h1>
+
           <div
-            className="w-12 sm:w-16 md:w-20 h-[3px] sm:h-[4px] mb-6 mx-auto md:mx-0"
+            className="w-16 sm:w-20 h-[3px] sm:h-[4px] mb-6 mx-auto md:mx-0"
             style={{ backgroundColor: "var(--accent-color, #e74c3c)" }}
           />
         </motion.div>
       </div>
 
-      {/* === Bottom Image === */}
+      {/* Image element */}
       <motion.div
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.3 }}
-        className="absolute bottom-0 right-0 flex justify-end items-end z-10 pointer-events-none"
+        className="absolute bottom-22 sm:bottom-30 md:bottom-0 right-0 z-10 flex justify-end"
       >
-        <div
-          className="
-            relative 
-            w-[220px] 
-            sm:w-[320px] 
-            md:w-[420px] 
-            lg:w-[520px] 
-            xl:w-[600px]
-          "
-        >
+        <div className="relative w-[240px] sm:w-[340px] md:w-[450px] lg:w-[500px]">
           <Image
             src="/paint-tubes.png"
             alt="Paint tubes"
             width={850}
             height={600}
-            className="object-contain select-none drop-shadow-2xl"
+            className="object-contain select-none pointer-events-none"
             priority
           />
         </div>

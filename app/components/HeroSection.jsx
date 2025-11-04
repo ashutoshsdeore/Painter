@@ -65,15 +65,25 @@ export default function HeroSection() {
           <div
             className="w-8 sm:w-12 mx-auto md:mx-0 mb-4 sm:mb-6 border-t-4"
             style={{ borderColor: "var(--accent-color)" }}
+            
           />
 
-          <h2 className="text-base sm:text-2xl md:text-3xl font-bold mb-3 text-white leading-snug">
-            Hi, My Name Is Gajanan Kulkarni
+          <h2 className="text-base sm:text-2xl md:text-3xl font-bold mb-3 text-white leading-snug"
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
+            Hi, My Name is <span className=" text-3xl text-gray"
+           style={{
+              fontFamily: "'Pacifico', cursive",
+              
+            }}>
+  G.R.Kulkarni
+</span>
           </h2>
 
           <p
             className="text-sm sm:text-lg leading-relaxed max-w-md mx-auto md:mx-0 px-2"
-            style={{ color: "var(--text-color)" }}
+            style={{ color: "var(--text-color)", }}
           >
             “Through abstract strokes, I give form to feelings that words can’t
             capture.”

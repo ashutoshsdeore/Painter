@@ -49,9 +49,9 @@ export default function ExhibitionsSection() {
       id="exhibitions"
       ref={sectionRef}
       className="relative min-h-[100vh] flex flex-col items-center justify-start overflow-visible"
-      style={{
-        fontFamily: "var(--font-primary)",
-      }}
+       style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
     >
       {/* 🖼️ Background */}
       <div
@@ -121,6 +121,9 @@ export default function ExhibitionsSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.12 }}
           className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 leading-tight"
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
         >
           Where Colors Speak Louder Than Words
         </motion.h2>

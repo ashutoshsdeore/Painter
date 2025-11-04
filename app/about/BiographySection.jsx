@@ -77,11 +77,17 @@ export default function BiographySection() {
       >
         {/* 📝 Text Section */}
         <div className="text-center md:text-left px-2 sm:px-0">
-          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-3 sm:mb-5 text-[#b41e10]">
+          <h2 className="text-xl sm:text-2xl md:text-4xl font-bold mb-3 sm:mb-5 text-[#b41e10]"
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
             How My Passion Began
           </h2>
 
-          <p className="text-[15px] sm:text-base md:text-lg leading-relaxed text-gray-900">
+          <p className="text-[15px] sm:text-base md:text-lg leading-relaxed text-gray-900"
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
             I invent and develop a visual language that expresses various forms
             and emotions of subjects. According to me, this art is not merely
             self-expression, but an expression of the hidden and deep-rooted

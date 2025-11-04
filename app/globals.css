@@ -15,7 +15,7 @@ body {
 }
 
 /* 3️⃣ Global Theme Variables */:root {
-  --font-primary: 'Inter', sans-serif;
+  --font-primary: 'Montserrat', sans-serif;
   --font-heading: 'Great Vibes', cursive;
  
  --hero-bg-color: #100b14;

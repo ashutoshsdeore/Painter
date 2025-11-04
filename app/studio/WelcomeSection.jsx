@@ -55,7 +55,9 @@ export default function WelcomeSection() {
               whileInView={{ opacity: 1, y: 0 }} 
               transition={{ duration: 0.8 }} 
               viewport={{ once: true }} 
-             className="text-[60px] md:text-[80px] font-bold text-[#b71c1c] leading-[1] mb-6" >
+             className="text-[60px] md:text-[80px] font-bold text-[#b71c1c] leading-[1] mb-6"  style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }} >
                  Inside My Studio
                   </motion.h2>
          <motion.div 
@@ -69,7 +71,10 @@ export default function WelcomeSection() {
                     whileInView={{ opacity: 1 }} 
                     transition={{ duration: 1, delay: 0.2 }} 
                     viewport={{ once: true }} 
-                    className="text-lg md:text-xl text-[#8b0000] leading-relaxed max-w-3xl" >
+                    className="text-lg md:text-xl text-[#8b0000] leading-relaxed max-w-3xl"
+                     style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }} >
                        Step inside a space where every canvas tells a story, and every color breathes emotion. Our studio is more than a place — it’s a sanctuary of creativity, passion, and the art of feeling. 
                          </motion.p> 
     </div>
@@ -119,7 +124,10 @@ export default function WelcomeSection() {
         className="relative w-full py-24  overflow-hidden"
       >
         {/* Text + Image Row */}
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 px-6 md:px-10 mb-20">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12 px-6 md:px-10 mb-20"
+         style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
           {/* Left Text */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}

@@ -58,6 +58,9 @@ export default function Abstract() {
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: true }}
             className="text-base sm:text-lg md:text-l text-gray-100 leading-relaxed max-w-2xl"
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
           >
              Explore a collection of abstract paintings that celebrate emotion, movement, and color. Every piece tells a silent story — of love, hope, passion, and reflection — crafted to connect with the heart and spark inspiration through the language of art. 
 

@@ -74,13 +74,17 @@ export default function RecentArtworks() {
         <div className="max-w-2xl">
           <h2
             className="text-xl sm:text-2xl md:text-3xl font-bold mb-4"
-            
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
           >
             Check Out My Latest Creations
           </h2>
           <p
             className="text-sm sm:text-base text-gray-700 max-w-xl leading-relaxed"
-           
+            style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
           >
             Each piece is a reflection of my evolving journey — where colours speak louder than words,
             and imagination flows freely beyond form. Dive into my latest works and experience how

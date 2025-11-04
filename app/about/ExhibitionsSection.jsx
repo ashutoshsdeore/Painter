@@ -67,10 +67,16 @@ export default function ExhibitionsSection() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 sm:gap-12 md:gap-16 items-center relative z-20">
           {/* === Left Column === */}
           <div className="space-y-6 text-center md:text-left">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-900"
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
               Emotions Through Painting
             </h2>
-            <p className="text-gray-700 leading-relaxed text-base sm:text-lg max-w-xl mx-auto md:mx-0">
+            <p className="text-gray-700 leading-relaxed text-base sm:text-lg max-w-xl mx-auto md:mx-0"
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
               Behind every abstract form lies a human story — of love, pain, hope, and dreams. My paintings are not just visuals, they are emotions you can see, touch, and feel.
             </p>
             <div className="flex flex-col items-center md:items-start">
@@ -79,15 +85,21 @@ export default function ExhibitionsSection() {
     alt="Signature"
     className="h-12 sm:h-14 md:h-16 mb-2 grayscale brightness-75 contrast-125"
   />
-  <span className="font-semibold text-gray-800 text-base sm:text-lg">
-    Gajanan Kulkarni
+  <span className="font-semibold text-gray-800 text-base sm:text-lg"
+   style={{
+              fontFamily: "'Pacifico', cursive"
+            }}>
+   G.R.Kulkarni
   </span>
 </div>
 
           </div>
 
           {/* === Right Column === */}
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-left"
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-6 text-gray-900">
               Exhibitions & Art Fairs
             </h3>

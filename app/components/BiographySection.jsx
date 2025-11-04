@@ -98,6 +98,9 @@ export default function BiographySection() {
             text-sm sm:text-base md:text-lg 
             font-semibold tracking-wide uppercase text-gray-200
           "
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
         >
           A Few Words About Me
         </motion.h3>
@@ -110,6 +113,9 @@ export default function BiographySection() {
             text-3xl sm:text-4xl md:text-5xl lg:text-6xl 
             font-bold text-white leading-tight
           "
+           style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
         >
           I am modern artist from India...
         </motion.h2>
@@ -120,7 +126,9 @@ export default function BiographySection() {
           transition={{ duration: 0.9, delay: 0.18 }}
           className="
             text-base sm:text-lg leading-relaxed text-gray-300
-          "
+          " style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
         >
           I invent and develop a visual language which expresses various forms and
           emotions of subjects. According to me this art is not a self-expression,

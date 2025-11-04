@@ -52,6 +52,9 @@ export default function Abstract() {
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: true }}
             className="text-lg md:text-xl text-gray-100 leading-relaxed max-w-2xl"
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}
           >
            Contact me for custom abstract paintings, collaborations, or commissions.
 
@@ -62,23 +65,41 @@ export default function Abstract() {
         <div className="relative z-10 max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 px-6 md:px-20 items-start">
           {/* LEFT SIDE: CONTACT DETAILS */}
           <div>
-            <h3 className="text-3xl font-semibold text-gray-300 mb-4">
+            <h3 className="text-3xl font-semibold text-gray-300 mb-4"
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
               Get in Touch
             </h3>
-            <p className="text-white text-base mb-8 max-w-md">
+            <p className="text-white text-base mb-8 max-w-md"
+             style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
              Get in touch to bring emotion and color to your space through original artwork. Also check out our YouTube Channel and don't forget to subscribe and like the videos that I bring to Color your Day .
             </p>
 
             <div className="space-y-8 text-gray-100">
               <div>
-                <h4 className="font-semibold text-gray-300">Phone</h4>
-                <p className="text-3xl font-bold text-white mt-1">
+                <h4 className="font-semibold text-gray-300"
+                 style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>Phone</h4>
+                <p className="text-3xl font-bold text-white mt-1"
+                 style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
                 +91 8830910740
                 </p>
               </div>
               <div>
-                <h4 className="font-semibold text-gray-300">Email</h4>
-                <p className="text-2xl font-bold text-white mt-1">
+                <h4 className="font-semibold text-gray-300"
+                 style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>Email</h4>
+                <p className="text-2xl font-bold text-white mt-1"
+                 style={{
+              fontFamily: "'Montserrat', sans-serif"
+            }}>
                   info@example.com
                 </p>
               </div>

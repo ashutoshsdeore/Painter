@@ -51,8 +51,8 @@ export default function Footer() {
       {/* === Content === */}
       <div className="relative z-[10] flex flex-col items-center justify-center pt-32 sm:pt-44 md:pt-56 pb-8 sm:pb-10 px-4 sm:px-6 md:px-12">
        <p className="text-gray-200 text-sm sm:text-base md:text-lg mb-3 max-w-[90%] sm:max-w-[80%] leading-relaxed">
-  Copyright © 2025{" "}
-  Powered by{" "}
+  Copyright © 2025{" "}<span text-white-400>Painter</span> | {" "}
+  Powered by{" "} 
   <a
     href="https://leafnywebpack.com"
     target="_blank"

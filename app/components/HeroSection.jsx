@@ -68,11 +68,11 @@ export default function HeroSection() {
             
           />
 
-          <h2 className="text-base sm:text-2xl md:text-3xl font-bold mb-3 text-white leading-snug"
+          <h2 className="text-base sm:text-2xl md:text-3xl  mb-3 text-white leading-snug"
            style={{
               fontFamily: "'Montserrat', sans-serif"
             }}>
-            Hi, My Name is <span className=" text-3xl text-gray"
+            Hi, My Name is <span className=" text-3xl text-gray font-bold"
            style={{
               fontFamily: "'Pacifico', cursive",
               

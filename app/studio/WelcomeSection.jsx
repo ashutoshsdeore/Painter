@@ -70,7 +70,7 @@ export default function WelcomeSection() {
                     transition={{ duration: 1, delay: 0.2 }} 
                     viewport={{ once: true }} 
                     className="text-lg md:text-xl text-[#8b0000] leading-relaxed max-w-3xl" >
-                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                       Step inside a space where every canvas tells a story, and every color breathes emotion. Our studio is more than a place — it’s a sanctuary of creativity, passion, and the art of feeling. 
                          </motion.p> 
     </div>
       </section>
@@ -128,17 +128,15 @@ export default function WelcomeSection() {
             viewport={{ once: true }}
             className="text-center md:text-left"
           >
-            <p className="text-gray-600 text-lg font-semibold mb-3">
+            {/* <p className="text-gray-600 text-lg font-semibold mb-3">
               My Studio Is My Home
-            </p>
+            </p> */}
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
               As a Young Artist
             </h2>
             <p className="text-gray-600 leading-relaxed max-w-lg mx-auto md:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-              aliquip ex ea commodo consequat.
+              My studio feels like an extension of who I am — a place where creativity flows freely and mistakes turn into masterpieces. As a young artist, I’m constantly experimenting, exploring emotions, and learning to express life through color and form. 
+
             </p>
           </motion.div>
 

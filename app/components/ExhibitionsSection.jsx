@@ -37,11 +37,11 @@ export default function ExhibitionsSection() {
   ];
 
   const moreExhibitions = [
-    "The Gallery – Chicago – 'Strokes', 2018",
-    "Visual Arts – Boston – 2018",
-    "Art New York – New York – 2016",
-    "Dynamic Fine Art – Los Angeles – 2018",
-    "House of Arts – Detroit – 2017",
+    "The Gallery - Bengaluru, India -2016",
+"Visual Arts - Delhi , india - 2018",
+"Art New - Chennai , india -2018",
+"Dynamic Fine Art - Uttra Pardesh , india -2024",
+"House of Art - Maharashtra , india - 2025",
   ];
 
   return (

@@ -4,13 +4,13 @@ import Image from "next/image";
 
 export default function Abstract() {
   const images = [
-    "/artwork1.jpg",
-    "/artwork2.jpg",
-    "/artwork3.jpg",
-    "/artwork4.jpg",
-    "/artwork5.jpg",
-    "/artwork6.jpg",
-    "/artwork7.jpg",
+    "/art1.jpg",
+    "/art2.jpg",
+    "/art3.jpg",
+    "/art4.jpg",
+    "/art5.jpg",
+    "/artw6.jpg",
+    "/art7.jpg",
     "/artwork8.jpg",
     "/artwork9.jpg",
   ];
@@ -57,10 +57,10 @@ export default function Abstract() {
             whileInView={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-base sm:text-lg md:text-xl text-gray-100 leading-relaxed max-w-2xl"
+            className="text-base sm:text-lg md:text-l text-gray-100 leading-relaxed max-w-2xl"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            blandit ex sit amet mi cursus, vel ultrices nulla fermentum.
+             Explore a collection of abstract paintings that celebrate emotion, movement, and color. Every piece tells a silent story — of love, hope, passion, and reflection — crafted to connect with the heart and spark inspiration through the language of art. 
+
           </motion.p>
         </div>
       </section>
@@ -105,7 +105,7 @@ export default function Abstract() {
               key={index}
               className={`relative overflow-hidden shadow-2xl transition-transform duration-500 ${
                 index < 3
-                  ? "-mt-40 sm:-mt-52 md:-mt-60 z-[40]"
+                  ? "-mt-0 sm:-mt-52 md:-mt-50 z-[40]"
                   : "z-10 mt-0"
               }`}
               initial={{ opacity: 0, y: 60 }}

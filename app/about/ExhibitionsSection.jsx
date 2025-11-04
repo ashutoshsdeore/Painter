@@ -71,8 +71,7 @@ export default function ExhibitionsSection() {
               Emotions Through Painting
             </h2>
             <p className="text-gray-700 leading-relaxed text-base sm:text-lg max-w-xl mx-auto md:mx-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-              tellus, luctus ullamcorper mattis, pulvinar dapibus leo.
+              Behind every abstract form lies a human story — of love, pain, hope, and dreams. My paintings are not just visuals, they are emotions you can see, touch, and feel.
             </p>
             <div className="flex flex-col items-center md:items-start">
   <img
@@ -93,15 +92,14 @@ export default function ExhibitionsSection() {
               Exhibitions & Art Fairs
             </h3>
             <ul className="space-y-2 sm:space-y-3 text-gray-800 text-sm sm:text-base leading-relaxed">
-              <li>The Gallery – Chicago – “Strokes”, 2018</li>
-              <li>Visual Arts – Boston – 2018</li>
-              <li>Art New York – New York – 2016</li>
-              <li>Dynamic Fine Art – Los Angeles – 2018</li>
-              <li>House of Arts – Detroit – 2017</li>
-              <li>Visual Arts – Boston – 2016</li>
-              <li>Dynamic Fine Art – Los Angeles – 2015</li>
-              <li>The Gallery – Chicago – “Strokes”, 2014</li>
-              <li>Art New York – New York – 2013</li>
+             <li>The Gallery - Bengaluru, India -2016</li>
+             <li>Visual Arts - Delhi , india - 2018
+</li>
+             <li>Art New - Chennai , india -2018
+</li>
+             <li>Dynamic Fine Art - Uttra Pardesh , india -2024
+</li>
+             <li>House of Art - Maharashtra , india - 2025</li>
             </ul>
           </div>
         </div>

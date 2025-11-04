@@ -129,7 +129,7 @@ export default function BiographySection() {
           this art and experience new dimensions of modern contemporary art.
         </motion.p>
 
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.24 }}
@@ -138,7 +138,7 @@ export default function BiographySection() {
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
           dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
           proident.
-        </motion.p>
+        </motion.p> */}
 
         <motion.a
           href="/about"
